@@ -60,6 +60,7 @@ done
 BINDIR=$( cd "$( dirname "$SCRIPT" )" && pwd )
 CORDOVALIB_DIR="$BINDIR/../CordovaLib"
 CDV_VER=$(cat $CORDOVALIB_DIR/VERSION)
+# This is what I need to fix.
 
 PROJECT_PATH=$1
 PACKAGE=$2
